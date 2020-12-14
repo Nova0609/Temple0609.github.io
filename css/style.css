@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  text-align: center;
+
+}
+
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2, h3{
+
+}
+
+.top-container {
+  background: #8db596;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  background: #707070;
+  width: 200px;
+  height: 200px;
+
+}
+
+.bottom-container {
+  background: #92817a;
+  width: 200px;
+  height: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+/*
+.mountain{
+
+}
