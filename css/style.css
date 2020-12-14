@@ -1,56 +1,88 @@
-body{
+body {
   margin: 0;
   text-align: center;
-
+  font-family: "Merriweather", serif;
+  background: #8db596;
 }
 
-
+.p1{
+  text-align: justify;
+}
+.p2 {
+  text-align: center;
+}
 h1 {
+  color: #16a596;
+  font-size: 5.625rem;
+  padding-top: 50px;
   margin: 0;
   font-family: 'Sacramento', cursive;
 }
 
-h2, h3{
-
+h2 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 2.5rem;
+  color: #16697a;
+  font-weight: normal;
 }
 
+h3 {
+  color: #16697a;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fox{
+  width: 25%;
+  float: left;
+}
 .top-container {
   background: #8db596;
-  position: relative;
-  padding-top: 100px;
-
 }
 
 .middle-container {
-  background: #707070;
-  width: 200px;
-  height: 200px;
+  background: #8db596;
+
 
 }
 
+.skill {
+  background: #8db596;
+}
+.skills-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 .bottom-container {
-  background: #92817a;
-  width: 200px;
-  height: 200px;
+  background: #8db596;
 }
 
 .pro {
   text-decoration: underline;
-  font-family: 'Sansita Swashed', cursive;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
-  right:300px;
-  top:50px;
+  right: 300px;
+  top: 50px;
 }
 
-.bottom-cloud{
-  position:absolute;
-  left:300px;
-  bottom:300px;
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
-/*
-.mountain{
 
+hr {
+  border-color: #222831;
+  text-align: center;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  height: 0;
+  width: 20%;
+}
+.center {
+  margin: 0 auto 0 auto;
 }
