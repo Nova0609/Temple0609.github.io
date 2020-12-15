@@ -7,9 +7,11 @@ body {
 
 .p1{
   text-align: justify;
+  line-height: 2;
 }
 .p2 {
   text-align: center;
+  line-height: 2;
 }
 h1 {
   color: #16a596;
@@ -85,4 +87,11 @@ hr {
 }
 .center {
   margin: 0 auto 0 auto;
+}
+.intro{
+  text-align: justify;
+}
+.profile{
+  width: 50%;
+  margin: auto;
 }
