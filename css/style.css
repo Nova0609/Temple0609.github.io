@@ -86,3 +86,10 @@ hr {
 .center {
   margin: 0 auto 0 auto;
 }
+.intro{
+  text-align: justify;
+}
+.profile{
+  width: 50%;
+  margin: auto;
+}
